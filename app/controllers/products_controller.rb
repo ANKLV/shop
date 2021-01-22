@@ -1,4 +1,6 @@
 class ProductsController < ApplicationController
+  before_action :find_category, only: [:show]
+  before_action :set_product, only: [:show]
 
   def index; end
 

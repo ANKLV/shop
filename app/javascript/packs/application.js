@@ -23,4 +23,6 @@ document.addEventListener("turbolinks:load", function() {
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
-
+require("easy-autocomplete")
+import "./search"
+import  "./jquery.easy-autocomplete"
