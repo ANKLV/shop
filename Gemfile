@@ -9,11 +9,15 @@ gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 5.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
-gem 'devise'
 gem 'activeadmin'
 gem 'pagy', '~> 3.5'
 gem 'faker'
 gem 'cloudinary'
+gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
+
+gem 'devise', github: 'heartcombo/devise', branch: 'ca-omniauth-2'
+
+gem "omniauth-rails_csrf_protection"
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
